@@ -4,7 +4,7 @@
 > **27% churn rate. $1.3M annual revenue at risk. 1 in 3 customers leaving.**  
 > This project uncovers *why* — and what the business should do about it.
 
-![Dashboard Preview]([dashboard_preview.png](https://github.com/fromciviltodata/Customer-Churn-Analysis/blob/main/overview.png))
+![Dashboard Preview](https://github.com/fromciviltodata/Customer-Churn-Analysis/blob/main/overview.png)
 
 ---
 
