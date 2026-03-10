@@ -149,44 +149,6 @@ Female churn: 27.4% | Male churn: 26.2% — a **1.2% difference** that is statis
 | | | **Total Est. Monthly Recovery** | **$40K–$67K** | |
 
 ---
-
-## 📐 DAX Measures Used
-
-```dax
--- Churn Rate
-Churn Rate =
-DIVIDE(
-    COUNTROWS(FILTER('churn_data', 'churn_data'[churn_label] = "Yes")),
-    COUNTROWS('churn_data'),
-    0
-)
-
--- Revenue at Risk (Monthly)
-Monthly Revenue at Risk =
-CALCULATE(
-    SUM('churn_data'[monthly_charges]),
-    'churn_data'[churn_label] = "Yes"
-)
-
--- % of Total (ignores visual filter context)
-% of Total Churn =
-DIVIDE(
-    [Churned Customers],
-    CALCULATE([Churned Customers], ALL('churn_data')),
-    0
-)
-
--- Churn Rate by Segment
-Churn Rate by Segment =
-DIVIDE(
-    CALCULATE(COUNTROWS('churn_data'), 'churn_data'[churn_label] = "Yes"),
-    COUNTROWS('churn_data'),
-    0
-)
-```
-
----
-
 ## 💭 What I Would Do Next
 
 Given access to additional data, the next analytical steps would be:
