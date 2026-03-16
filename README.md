@@ -96,7 +96,7 @@ Drills into the behavioural and service-level factors that predict churn.
 
 **Key visuals:** Contract type churn rate • Top churn reasons • Service-level churn table • Payment method analysis • Internet type breakdown
 
- ![view](https://github.com/fromciviltodata/Customer-Churn-Analysis/blob/main/churn%20drivers.png)
+ ![view](https://github.com/EktaMistri/Telecom-Customer-Churn-Analysis/blob/main/drivers.png)
 ---
 
 ### Page 3 — Insights & Recommendations *(What should the business do?)*
